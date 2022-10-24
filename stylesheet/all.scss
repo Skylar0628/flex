@@ -1,0 +1,13 @@
+@import '../node_modules/bootstrap/scss/functions';
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+// component 
+@import './component/variables';
+
+// helps
+@import './helps/font-size';
+@import './helps/form';
+@import './helps/bg-color';
+@import './helps/navButton';

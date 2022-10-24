@@ -1,0 +1,39 @@
+
+
+.nav__btn:focus{
+    outline: none;
+}
+
+.nav__btn i{
+    font-size: 1.4rem;  
+    color: #555;
+}
+
+.nav__btn:hover {
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.nav__btn:hover i{
+    color: $primary;
+}
+
+.nav__active i{
+   color:$primary;
+}
+
+.nav__active{
+    position: relative;
+}
+
+.nav__active::before{
+     content: '';
+     position: absolute;
+     bottom: -4.5px;
+     left: 0px;
+     height: 3px;
+     width: 100%;
+     background-color: $primary;
+     border-bottom:3px solid $primary;
+}
+
